@@ -1,0 +1,222 @@
+ * {
+     font-family: 'Poppins', sans-serif;
+ }
+
+ .font-playfair {
+     font-family: 'Playfair Display', serif;
+ }
+
+ .hero-gradient {
+     background: linear-gradient(135deg, #0f4a4e 100%);
+     position: relative;
+ }
+
+ .song-card {
+     transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1),
+         box-shadow 0.4s ease,
+         border-color 0.3s ease;
+ }
+
+ .song-card:hover {
+     transform: translateY(-12px);
+     box-shadow: 0 20px 40px rgba(147, 51, 234, 0.2);
+     border-color: rgba(147, 51, 234, 0.1);
+ }
+
+ .play-btn {
+     transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+     box-shadow: 0 8px 16px rgba(147, 51, 234, 0.4);
+ }
+
+ .play-btn:hover {
+     transform: scale(1.15);
+     background-color: #6d28d9;
+     box-shadow: 0 12px 24px rgba(147, 51, 234, 0.6);
+ }
+
+ .section-title {
+     position: relative;
+     display: inline-block;
+     background: linear-gradient(135deg, #1f2937 0%, #7c3aed 100%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+ }
+
+ .section-title::after {
+     content: '';
+     position: absolute;
+     bottom: -12px;
+     left: 50%;
+     transform: translateX(-50%);
+     width: 80px;
+     height: 4px;
+     background: linear-gradient(to right, #8b5cf6, #4f46e5, #ec4899);
+     border-radius: 2px;
+     box-shadow: 0 4px 12px rgba(147, 51, 234, 0.3);
+ }
+
+ /* Animations */
+ @keyframes fadeIn {
+     from {
+         opacity: 0;
+     }
+
+     to {
+         opacity: 1;
+     }
+ }
+
+ @keyframes slideInLeft {
+     from {
+         opacity: 0;
+         transform: translateX(-30px);
+     }
+
+     to {
+         opacity: 1;
+         transform: translateX(0);
+     }
+ }
+
+ @keyframes slideInRight {
+     from {
+         opacity: 0;
+         transform: translateX(30px);
+     }
+
+     to {
+         opacity: 1;
+         transform: translateX(0);
+     }
+ }
+
+ @keyframes slideUp {
+     from {
+         opacity: 0;
+         transform: translateY(30px);
+     }
+
+     to {
+         opacity: 1;
+         transform: translateY(0);
+     }
+ }
+
+ .animate-fade-in {
+     animation: fadeIn 0.8s ease-out;
+ }
+
+ .animate-slide-in-left {
+     animation: slideInLeft 0.8s ease-out;
+ }
+
+ .animate-slide-in-right {
+     animation: slideInRight 0.8s ease-out;
+ }
+
+ .animate-slide-up {
+     animation: slideUp 0.6s ease-out;
+     animation-fill-mode: both;
+ }
+
+ .animate-slide-up:nth-child(1) {
+     animation-delay: 0.1s;
+ }
+
+ .animate-slide-up:nth-child(2) {
+     animation-delay: 0.2s;
+ }
+
+ .animate-slide-up:nth-child(3) {
+     animation-delay: 0.3s;
+ }
+
+ /* Enhanced player styling */
+ #main-player {
+     border: 1px solid rgba(147, 51, 234, 0.1);
+     backdrop-filter: blur(10px);
+ }
+
+ #main-player:hover {
+     border-color: rgba(147, 51, 234, 0.2);
+     box-shadow: 0 20px 40px rgba(147, 51, 234, 0.15);
+ }
+
+ /* Audio element custom styling */
+ audio {
+     width: 100%;
+     filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+ }
+
+ audio::-webkit-media-controls-panel {
+     background-color: #f5f3ff;
+ }
+
+ audio::-webkit-media-controls-current-time-display,
+ audio::-webkit-media-controls-time-remaining-display {
+     color: #ffffff;
+ }
+
+ /* Smooth transitions */
+ a,
+ button {
+     transition: all 0.3s ease;
+ }
+
+ button:active {
+     transform: scale(0.98);
+ }
+ /* Video card enhancements */
+ .video-card {
+     transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+     position: relative;
+ }
+
+ .video-card::before {
+     content: '';
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background: linear-gradient(135deg, rgba(147, 51, 234, 0.1), rgba(244, 63, 94, 0.1));
+     opacity: 0;
+     transition: opacity 0.3s ease;
+     z-index: 1;
+     pointer-events: none;
+     border-radius: inherit;
+ }
+
+ .video-card:hover::before {
+     opacity: 1;
+ }
+
+ /* YouTube iframe styling */
+ iframe {
+     border: none;
+ }
+
+ /* Subscribe button animation */
+ .subscribe-btn {
+     position: relative;
+     overflow: hidden;
+ }
+
+ .subscribe-btn::before {
+     content: '';
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     width: 0;
+     height: 0;
+     border-radius: 50%;
+     background: rgba(255, 255, 255, 0.3);
+     transform: translate(-50%, -50%);
+     transition: width 0.6s, height 0.6s;
+ }
+
+ .subscribe-btn:hover::before {
+     width: 300px;
+     height: 300px;
+ }

@@ -1,0 +1,41 @@
+<!-- Gallery Section
+    <section id="gallery" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 section-title">Photo Gallery</h2>
+
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                <div class="rounded-lg overflow-hidden shadow-md">
+                    <img src="http://static.photos/music/320x240/1" alt="Heera Bagdas Performance"
+                        class="w-full h-48 object-cover hover:scale-105 transition duration-300">
+                </div>
+                <div class="rounded-lg overflow-hidden shadow-md">
+                    <img src="http://static.photos/culture/320x240/2" alt="Traditional Attire"
+                        class="w-full h-48 object-cover hover:scale-105 transition duration-300">
+                </div>
+                <div class="rounded-lg overflow-hidden shadow-md">
+                    <img src="http://static.photos/nature/320x240/3" alt="Recording Studio"
+                        class="w-full h-48 object-cover hover:scale-105 transition duration-300">
+                </div>
+                <div class="rounded-lg overflow-hidden shadow-md">
+                    <img src="http://static.photos/event/320x240/4" alt="Concert Stage"
+                        class="w-full h-48 object-cover hover:scale-105 transition duration-300">
+                </div>
+                <div class="rounded-lg overflow-hidden shadow-md">
+                    <img src="http://static.photos/people/320x240/5" alt="With Fans"
+                        class="w-full h-48 object-cover hover:scale-105 transition duration-300">
+                </div>
+                <div class="rounded-lg overflow-hidden shadow-md">
+                    <img src="http://static.photos/music/320x240/6" alt="Award Ceremony"
+                        class="w-full h-48 object-cover hover:scale-105 transition duration-300">
+                </div>
+                <div class="rounded-lg overflow-hidden shadow-md">
+                    <img src="http://static.photos/culture/320x240/7" alt="Cultural Event"
+                        class="w-full h-48 object-cover hover:scale-105 transition duration-300">
+                </div>
+                <div class="rounded-lg overflow-hidden shadow-md">
+                    <img src="http://static.photos/event/320x240/8" alt="Music Video Shoot"
+                        class="w-full h-48 object-cover hover:scale-105 transition duration-300">asdfgh
+                </div>
+            </div>
+        </div>
+    </section> -->

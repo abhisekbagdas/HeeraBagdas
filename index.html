@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Heera Bagdas - Renowned Nepali Lok Dohori singer and composer preserving traditional folk music">
+    <title>Heera Bagdas - Nepali Lok Dohori Singer & Composer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center space-x-2">
+                    <div class="w-10 h-10 bg-purple-600 rounded-full flex items-center justify-center">
+                        <span class="text-white font-bold text-lg">HB</span>
+                    </div>
+                    <span class="text-xl font-bold text-gray-800">Heera Bagdas</span>
+                </div>
+
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="text-gray-700 hover:text-purple-600 font-medium">Home</a>
+                    <a href="#about" class="text-gray-700 hover:text-purple-600 font-medium">About</a>
+                    <a href="#music" class="text-gray-700 hover:text-purple-600 font-medium">Music</a>
+                    <a href="#videos" class="text-gray-700 hover:text-purple-600 font-medium">Videos</a>
+                    <!-- <a href="#gallery" class="text-gray-700 hover:text-purple-600 font-medium">Gallery</a> -->
+                    <a href="#contact" class="text-gray-700 hover:text-purple-600 font-medium">Contact</a>
+                </div>
+
+                <button id="mobile-menu-btn" class="md:hidden text-gray-700">
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="md:hidden hidden bg-white border-t">
+            <div class="flex flex-col space-y-4 py-4 px-4">
+                <a href="#home" class="text-gray-700 hover:text-purple-600 font-medium">Home</a>
+                <a href="#about" class="text-gray-700 hover:text-purple-600 font-medium">About</a>
+                <a href="#music" class="text-gray-700 hover:text-purple-600 font-medium">Music</a>
+                <a href="#videos" class="text-gray-700 hover:text-purple-600 font-medium">Videos</a>
+                <a href="#gallery" class="text-gray-700 hover:text-purple-600 font-medium">Gallery</a>
+                <a href="#contact" class="text-gray-700 hover:text-purple-600 font-medium">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section - Enhanced -->
+    <section id="home" class="hero-gradient text-white py-24 md:py-40 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute top-10 right-10 w-96 h-96 bg-purple-400 rounded-full filter blur-3xl"></div>
+            <div class="absolute bottom-0 left-0 w-96 h-96 bg-pink-400 rounded-full filter blur-3xl"></div>
+        </div>
+        <div class="container mx-auto px-4 text-center relative z-10">
+            <div class="animate-fade-in">
+                <h1 class="text-6xl md:text-8xl font-bold mb-4 font-playfair tracking-tight">Heera Bagdas</h1>
+                <p class="text-xl md:text-3xl text-purple-100 mb-8 font-light">Nepali Lok Dohori Singer & Composer</p>
+                <p class="text-purple-200 mb-12 max-w-2xl mx-auto text-lg">Preserving the soul of Nepali folk music with
+                    contemporary arrangements</p>
+                <div class="flex flex-col sm:flex-row justify-center gap-4 flex-wrap">
+                    <a href="#music"
+                        class="bg-white hover:bg-purple-50 text-purple-600 px-8 py-4 rounded-full font-semibold transition transform hover:scale-105 inline-flex items-center justify-center space-x-2 shadow-lg">
+                        <svg data-lucide="play" class="w-5 h-5"></svg>
+                        <span>Listen Now</span>
+                    </a>
+                    <a href="#videos"
+                        class="bg-purple-500 hover:bg-purple-400 text-white px-8 py-4 rounded-full font-semibold transition transform hover:scale-105 inline-flex items-center justify-center space-x-2 shadow-lg">
+                        <svg data-lucide="video" class="w-5 h-5"></svg>
+                        <span>Watch Videos</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white relative">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 section-title">About the Artist</h2>
+
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/3 mb-8 md:mb-0 animate-slide-in-left">
+                    <div
+                        class="rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition duration-500">
+                        <img src="./Assets/Images/HeeraBagdas.jpg" alt="Heera Bagdas performing" class="w-full h-auto">
+                    </div>
+                </div>
+
+                <div class="md:w-2/3 md:pl-12 animate-slide-in-right">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Preserving Nepali Musical Heritage</h3>
+                    <p class="text-gray-600 mb-8">
+                        Heera Bagdas is a renowned Nepali Lok Dohori singer and composer dedicated to keeping
+                        traditional folk music alive. His music blends authentic Nepali elements with contemporary
+                        arrangements, creating a unique sound that resonates across generations.
+                    </p>
+
+                    <div class="space-y-4">
+                        <h4 class="text-lg font-bold text-gray-800 mb-4">Featured Songs</h4>
+                        <a href="#videos"
+                            class="flex items-center p-3 rounded-lg bg-purple-50 hover:bg-purple-100 transition group">
+                            <span
+                                class="w-2 h-2 bg-purple-600 rounded-full mr-3 group-hover:scale-150 transition"></span>
+                            <span class="text-gray-800 font-medium">भेट्ने कहिले कहिले</span>
+                            <span class="text-gray-500 text-sm ml-auto">Bhetne Kaile Kaile</span>
+                        </a>
+                        <a href="#videos"
+                            class="flex items-center p-3 rounded-lg bg-purple-50 hover:bg-purple-100 transition group">
+                            <span
+                                class="w-2 h-2 bg-purple-600 rounded-full mr-3 group-hover:scale-150 transition"></span>
+                            <span class="text-gray-800 font-medium">सारा खुशी</span>
+                            <span class="text-gray-500 text-sm ml-auto">Sara Khusi</span>
+                        </a>
+                        <a href="#videos"
+                            class="flex items-center p-3 rounded-lg bg-purple-50 hover:bg-purple-100 transition group">
+                            <span
+                                class="w-2 h-2 bg-purple-600 rounded-full mr-3 group-hover:scale-150 transition"></span>
+                            <span class="text-gray-800 font-medium">मेरी उनि</span>
+                            <span class="text-gray-500 text-sm ml-auto">Meri Uni</span>
+                        </a>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
+                        <div class="flex items-center">
+                            <div class="bg-purple-100 p-3 rounded-full mr-4">
+                                <i data-lucide="mic" class="w-6 h-6 text-purple-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800">Vocalist</h4>
+                                <p class="text-sm text-gray-600">Powerful voice</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center">
+                            <div class="bg-purple-100 p-3 rounded-full mr-4">
+                                <i data-lucide="music" class="w-6 h-6 text-purple-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800">Composer</h4>
+                                <p class="text-sm text-gray-600">Original works</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center">
+                            <div class="bg-purple-100 p-3 rounded-full mr-4">
+                                <i data-lucide="users" class="w-6 h-6 text-purple-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800">Collaborations</h4>
+                                <p class="text-sm text-gray-600">Top artists</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center">
+                            <div class="bg-purple-100 p-3 rounded-full mr-4">
+                                <i data-lucide="award" class="w-6 h-6 text-purple-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800">Awards</h4>
+                                <p class="text-sm text-gray-600">Multiple recognitions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Music Section -->
+    <section id="music" class="py-20 bg-gradient-to-br from-gray-50 to-purple-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 section-title">Popular Songs</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Featured Song -->
+                <div class="song-card bg-white rounded-2xl overflow-hidden shadow-lg cursor-pointer hover:shadow-2xl animate-slide-up"
+                    onclick="playSong(0)">
+                    <div class="relative h-48 overflow-hidden bg-gradient-to-br from-purple-600 to-pink-600">
+                        <img src="./Assets/Images/Bhetne Kaile Kaile भटन कहल कहल by Laxmi Pariyar & Hira Bagdas  New Lok Dohori Song 2075.jpg"
+                            alt="Bhetne Kaile Kaile"
+                            class="w-full h-full object-cover opacity-80 hover:opacity-60 transition duration-300">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-purple-900 via-transparent to-transparent flex items-center justify-center">
+                            <div class="play-btn bg-purple-600 text-white p-4 rounded-full">
+                                <i data-lucide="play" class="w-8 h-8"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">भेट्ने कहिले कहिले</h3>
+                        <p class="text-gray-600 mb-4">Featuring Laxmi Pariyar</p>
+                        <p class="text-gray-500 text-sm mb-6">
+                            A beautiful Lok Dohori song about longing and meeting loved ones. The song has captured
+                            hearts across Nepal with its melodious composition.
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-purple-600 font-medium flex items-center">
+                                <i data-lucide="play-circle" class="w-5 h-5 mr-2"></i>
+                                Play Now
+                            </span>
+                            <span class="bg-purple-100 text-purple-800 text-xs px-3 py-1 rounded-full">Featured</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Other Songs -->
+                <div class="song-card bg-white rounded-2xl overflow-hidden shadow-lg cursor-pointer hover:shadow-2xl animate-slide-up"
+                    onclick="playSong(1)">
+                    <div class="relative h-48 overflow-hidden">
+                        <img src="./Assets/Images/सारा खुशी  New Nepali Lok Dohori 2076, 2020  Hira Bagdas & Pratima Bishwakarma.jpg"
+                            alt="सारा खुशी" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-purple-900 bg-opacity-40 flex items-center justify-center">
+                            <div class="play-btn bg-purple-600 text-white p-4 rounded-full">
+                                <i data-lucide="play" class="w-8 h-8"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">सारा खुशी</h3>
+                        <p class="text-gray-600 mb-4">Solo Performance</p>
+                        <p class="text-gray-500 text-sm mb-6">
+                            A romantic Lok Dohori expressing the flow of love like a waterfall, with traditional Nepali
+                            instruments.
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-purple-600 font-medium flex items-center">
+                                <i data-lucide="play-circle" class="w-5 h-5 mr-2"></i>
+                                Play Now
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="song-card bg-white rounded-2xl overflow-hidden shadow-lg cursor-pointer hover:shadow-2xl animate-slide-up"
+                    onclick="playSong(2)">
+                    <div class="relative h-48 overflow-hidden">
+                        <img src="./Assets/Images/Meri Uni (मर उन ) Purnakala Bc & Hira Bagdas Ft. Dilip Regmi, Kanchan Pun New Nepali Song 2078.jpg"
+                            alt="मेरी उनि" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-purple-900 bg-opacity-40 flex items-center justify-center">
+                            <div class="play-btn bg-purple-600 text-white p-4 rounded-full">
+                                <i data-lucide="play" class="w-8 h-8"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">मेरी उनि</h3>
+                        <p class="text-gray-600 mb-4">With Sarita Thapa</p>
+                        <p class="text-gray-500 text-sm mb-6">
+                            Celebrating the hills and mountains of Nepal through music, capturing the essence of rural
+                            life.
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-purple-600 font-medium flex items-center">
+                                <i data-lucide="play-circle" class="w-5 h-5 mr-2"></i>
+                                Play Now
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Functional Audio Player -->
+            <div class="mt-16 bg-gradient-to-br from-white to-purple-50 rounded-2xl shadow-2xl p-8 max-w-3xl mx-auto"
+                id="main-player">
+                <h3 class="text-xl font-bold text-gray-800 mb-4 text-center">Now Playing</h3>
+                <div class="flex items-center space-x-4 mb-4">
+                    <div class="w-20 h-20 bg-purple-100 rounded-lg flex items-center justify-center flex-shrink-0"
+                        id="player-cover">
+                        <i data-lucide="music" class="w-10 h-10 text-purple-600"></i>
+                    </div>
+                    <div class="flex-1 min-w-0">
+                        <h4 class="font-bold text-gray-800 text-lg truncate" id="player-title">भेट्ने कहिले कहिले</h4>
+                        <p class="text-sm text-gray-600" id="player-artist">Heera Bagdas ft. Laxmi Pariyar</p>
+                    </div>
+                </div>
+
+                <!-- Audio Element -->
+                <audio id="audio-player" class="w-full mb-4" controls>
+                    <source
+                        src="./Assets/Musics/Bhetne Kaile Kaile भटन कहल कहल by Laxmi Pariyar & Hira Bagdas  New Lok Dohori Song 2075.mp3"
+                        type="audio/mpeg">
+                </audio>
+
+                <!-- Custom Controls -->
+                <div class="flex items-center justify-center space-x-6">
+                    <button onclick="previousSong()" class="text-gray-600 hover:text-purple-600 p-2">
+                        <i data-lucide="skip-back" class="w-6 h-6"></i>
+                    </button>
+                    <button onclick="togglePlay()" id="main-play-btn"
+                        class="bg-purple-600 hover:bg-purple-700 text-white p-4 rounded-full">
+                        <i data-lucide="play" class="w-8 h-8"></i>
+                    </button>
+                    <button onclick="nextSong()" class="text-gray-600 hover:text-purple-600 p-2">
+                        <i data-lucide="skip-forward" class="w-6 h-6"></i>
+                    </button>
+                </div>
+
+                <!-- Playlist -->
+                <div class="mt-6 border-t pt-4">
+                    <h5 class="text-sm font-semibold text-gray-700 mb-3">Playlist</h5>
+                    <div class="space-y-2" id="playlist">
+                        <div class="flex items-center p-2 rounded-lg bg-purple-50 cursor-pointer" onclick="playSong(0)">
+                            <span class="text-purple-600 w-6">1</span>
+                            <span class="flex-1 text-gray-800">Bhetne Kaile Kaile भेट्ने कहिले कहिले</span>
+                            <span class="text-gray-500 text-sm">6:57</span>
+                        </div>
+                        <div class="flex items-center p-2 rounded-lg hover:bg-gray-50 cursor-pointer"
+                            onclick="playSong(1)">
+                            <span class="text-gray-400 w-6">2</span>
+                            <span class="flex-1 text-gray-800">Sara Khusi सारा खुशी</span>
+                            <span class="text-gray-500 text-sm">6:40</span>
+                        </div>
+                        <div class="flex items-center p-2 rounded-lg hover:bg-gray-50 cursor-pointer"
+                            onclick="playSong(2)">
+                            <span class="text-gray-400 w-6">3</span>
+                            <span class="flex-1 text-gray-800">Meri Uni मेरी उनि </span>
+                            <span class="text-gray-500 text-sm">9:57</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Videos Section -->
+    <section id="videos" class="py-20 bg-gradient-to-br from-white via-purple-50 to-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-center section-title mb-4">Music Videos</h2>
+                <p class="text-gray-600 text-lg max-w-2xl mx-auto">Watch the official music videos of our latest
+                    releases</p>
+            </div>
+
+            <!-- Other Videos Grid -->
+            <h3 class="text-2xl font-bold text-gray-800 mb-8 flex items-center">
+                <span class="w-1 h-8 bg-purple-600 mr-3"></span>
+                Latest Videos
+            </h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Video 1 -->
+                <div class="group rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition transform hover:-translate-y-2 duration-300 bg-gray-900 animate-slide-up"
+                    style="animation-delay: 0.1s">
+                    <div class="relative w-full" style="padding-bottom: 56.25%;">
+                        <iframe class="absolute top-0 left-0 w-full h-full"
+                            src="https://www.youtube.com/embed/0-JweBlXFuU?rel=0&modestbranding=1" title="Sara Khusi"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="p-6 bg-white group-hover:bg-gray-50 transition">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-1">Bhetne Kaile Kaile</h3>
+                        <p class="text-purple-600 font-semibold mb-3">भेट्ने कहिले कहिले</p>
+                        <p class="text-gray-600 mb-4">
+                            The heartfelt tale of longing and meetings. This official music video captures the essence
+                            of Nepali folk romance with stunning cinematography across the breathtaking landscapes of
+                            Nepal. Featuring beautiful traditional attire and instruments with an emotional narrative.
+                        </p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-gray-500 flex items-center">
+                                <svg data-lucide="clock" class="w-4 h-4 mr-2"></svg>
+                                6:58
+                            </span>
+                            <a href="https://www.youtube.com/embed/0-JweBlXFuU?rel=0&modestbranding=1"
+                                class="text-purple-600 hover:text-purple-700 font-medium flex items-center">
+                                Watch<svg data-lucide="arrow-right" class="w-4 h-4 ml-1"></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video 2 -->
+                <div class="group rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition transform hover:-translate-y-2 duration-300 bg-gray-900 animate-slide-up"
+                    style="animation-delay: 0.1s">
+                    <div class="relative w-full" style="padding-bottom: 56.25%;">
+                        <iframe class="absolute top-0 left-0 w-full h-full"
+                            src="https://www.youtube.com/embed/MFt-bALYS1U?rel=0&modestbranding=1" title="Sara Khusi"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="p-6 bg-white group-hover:bg-gray-50 transition">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-1">Sara Khusi</h3>
+                        <p class="text-purple-600 font-semibold mb-3">सारा खुशी</p>
+                        <p class="text-gray-600 mb-4">
+                            A joyful celebration of love and happiness. This vibrant music video showcases traditional
+                            Nepali folk dance and colorful cultural elements with modern cinematography.
+                        </p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-gray-500 flex items-center">
+                                <svg data-lucide="clock" class="w-4 h-4 mr-2"></svg>
+                                6:40
+                            </span>
+                            <a href="https://www.youtube.com/embed/MFt-bALYS1U?rel=0&modestbranding=1"
+                                class="text-purple-600 hover:text-purple-700 font-medium flex items-center">
+                                Watch<svg data-lucide="arrow-right" class="w-4 h-4 ml-1"></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Video 3 -->
+                <div class="group rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition transform hover:-translate-y-2 duration-300 bg-gray-900 animate-slide-up"
+                    style="animation-delay: 0.2s">
+                    <div class="relative w-full" style="padding-bottom: 56.25%;">
+                        <iframe class="absolute top-0 left-0 w-full h-full"
+                            src="https://www.youtube.com/embed/HDaVzMjWaZw?rel=0&modestbranding=1" title="Meri Uni"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="p-6 bg-white group-hover:bg-gray-50 transition">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-1">Meri Uni</h3>
+                        <p class="text-purple-600 font-semibold mb-3">मेरी उनि</p>
+                        <p class="text-gray-600 mb-4">
+                            A emotional ballad about unrequited love and yearning. This deeply moving music video
+                            features intimate storytelling with poetic visuals of Nepali mountains and villages.
+                        </p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-gray-500 flex items-center">
+                                <svg data-lucide="clock" class="w-4 h-4 mr-2"></svg>
+                                9:57
+                            </span>
+                            <a href="https://www.youtube.com/embed/HDaVzMjWaZw?rel=0&modestbranding=1"
+                                class="text-purple-600 hover:text-purple-700 font-medium flex items-center">
+                                Watch<svg data-lucide="arrow-right" class="w-4 h-4 ml-1"></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 section-title">Get In Touch</h2>
+
+            <div class="max-w-4xl mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12 animate-fade-in">
+                    <div class="text-center p-6 bg-purple-50 rounded-xl">
+                        <div class="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i data-lucide="mail" class="w-8 h-8 text-purple-600"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Email</h3>
+                        <p class="text-gray-600 text-sm break-all">diamond.bagdas.db@gmail.com</p>
+                        <p class="text-gray-600">For business inquiries</p>
+                    </div>
+
+                    <div class="text-center p-6 bg-purple-50 rounded-xl">
+                        <div class="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i data-lucide="phone" class="w-8 h-8 text-purple-600"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Management</h3>
+                        <p class="text-gray-600">+977 9867697480</p>
+                        <p class="text-gray-600">For bookings & events</p>
+                    </div>
+
+                    <div class="text-center p-6 bg-purple-50 rounded-xl">
+                        <div class="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i data-lucide="map-pin" class="w-8 h-8 text-purple-600"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Location</h3>
+                        <p class="text-gray-600">Kathmandu, Nepal</p>
+                        <!-- <p class="text-gray-600">Available worldwide</p> -->
+                    </div>
+                </div>
+
+                <div class="bg-gray-50 rounded-xl p-8 shadow-lg">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-6 text-center">Send a Message</h3>
+                    <form class="space-y-6">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-gray-700 mb-2">Your Name</label>
+                                <input type="text"
+                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
+                                    placeholder="Enter your name">
+                            </div>
+                            <div>
+                                <label class="block text-gray-700 mb-2">Your Email</label>
+                                <input type="email"
+                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
+                                    placeholder="Enter your email">
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 mb-2">Subject</label>
+                            <input type="text"
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
+                                placeholder="What is this regarding?">
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 mb-2">Message</label>
+                            <textarea rows="5"
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
+                                placeholder="Your message here..."></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit"
+                                class="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded-full font-medium transition duration-300">
+                                Send Message
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-8 md:mb-0">
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="w-10 h-10 bg-purple-600 rounded-full flex items-center justify-center">
+                            <span class="text-white font-bold text-lg">HB</span>
+                        </div>
+                        <span class="text-xl font-bold">Heera Bagdas</span>
+                    </div>
+                    <p class="text-gray-400 max-w-md">
+                        Preserving Nepali Lok Dohori music tradition and sharing it with the world through heartfelt
+                        compositions.
+                    </p>
+                </div>
+
+                <div class="flex space-x-6 mb-8 md:mb-0">
+                    <a href="https://www.facebook.com/hira.bagdas.14" class="text-gray-400 hover:text-white">
+                        <i data-lucide="facebook" class="w-6 h-6"></i>
+                    </a>
+                    <!-- <a href="#" class="text-gray-400 hover:text-white">
+                        <i data-lucide="instagram" class="w-6 h-6"></i>
+                    </a> -->
+                    <a href="https://www.youtube.com/@heerabagdas53" target="_blank"
+                        class="text-gray-400 hover:text-white">
+                        <i data-lucide="youtube" class="w-6 h-6"></i>
+                    </a>
+                    <!-- <a href="#" class="text-gray-400 hover:text-white">
+                        <i data-lucide="music" class="w-6 h-6"></i>
+                    </a> -->
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 Heera Bagdas. All rights reserved. | Designed with ❤️ for Nepali Music</p>
+                <p class="mt-2 text-sm">This is a fan website. All images are for demonstration purposes.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Main Script -->
+    <script src="main.js"></script>
+
+</body>
+
+</html>
